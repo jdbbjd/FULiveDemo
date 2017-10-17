@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'FUNama'
-  s.version  = ‘1.1’
+  s.version  = '1.1'
   s.license  = 'MIT'
   s.summary  = 'faceunity namaSDK'
   s.homepage = 'https://www.faceunity.com'
