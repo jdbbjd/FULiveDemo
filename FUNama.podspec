@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.resources = 'FULiveDemo/Faceunity/FaceUnity-SDK-iOS/**/*.{bundle}'
   s.ios.vendored_library = 'FULiveDemo/Faceunity/FaceUnity-SDK-iOS/libnama.a'
   s.requires_arc = true
-  s.ios.frameworks   = ['Accelerate', 'AVFoundation']
+  s.ios.frameworks   = ['OpenGLES', 'Accelerate', 'CoreMedia', 'AVFoundation']
+  s.libraries = ["stdc++"]
   end
